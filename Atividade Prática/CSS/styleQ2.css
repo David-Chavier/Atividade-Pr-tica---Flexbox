@@ -1,0 +1,29 @@
+body{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    justify-content: end;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.ball{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #FF9900;
+}
+.square{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: #0B5394;
+}

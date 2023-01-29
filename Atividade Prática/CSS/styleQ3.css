@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin-top: 40px;
+}
+.square{
+    width: 100vw;
+    height: 40px;
+    background-color: #5667CB;
+}
+h1{
+    margin-bottom: 2px;
+    color: #5667CB;
+}
+fieldset{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 400px;
+    border: none;
+}
+.login{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    background-color: #5667CB;
+    color: #fff;
+}
+.loginSubmit{
+    width: 406px;
+    margin-top: 12px;
+}
+.textoSolto{
+    font-size: small;
+    margin: 12px 0 12px 0;
+}
+.textoSolto1{
+    margin-top: 0;
+}
+.textoSolto2{
+    display: flex;
+    justify-content: center;
+}
